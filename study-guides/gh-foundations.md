@@ -1,44 +1,22 @@
 ![GitHub Foundations Study Guide](../images/gh-foundations.png)
 
-> You can also find this [study guide in PDF format](https://assets.ctfassets.net/wfutmusr1t3h/1kmMx7AwI4qH8yIZgOmQlP/4e60030cc6c76688698652e830ea2a48/github-foundations-exam-study-guide.pdf) 📝
-
 # GitHub Foundations
 
-Get exam-ready for your **GitHub Foundations Certification** with our comprehensive study guide. We’ve curated the essential resources and insights you need to navigate the foundations of GitHub and boost your success with the exam.
-
 ## Objective Domains
-
-An objective domain for a certification exam, often referred to as a “domain” or “exam domain,” is a structured outline or framework that defines the specific knowledge, skills, and topics that the certification
-exam will cover. It provides a clear roadmap for what candidates should expect to encounter on the exam
-and what they need to study and prepare for.
 
 The domains provided in this study guide are intended to provide insight into the topic categories covered in
 the GitHub Foundations exam, along with the learning objective within each domain.
 
-```
-Domain Breakdown
-```
-```
-Domain 1: Introduction to Git and GitHub
-```
-```
-Domain 2: Working with GitHub Repositories
-```
-```
-Domain 3: Collaboration Features
-```
-```
-Domain 4: Modern Development
-```
-```
-Domain 5: Project Management
-```
-```
-Domain 6: Privacy, Security, and Administration
-```
-```
-Domain 7: Benefits of the GitHub Community
-```
+## Domain Breakdown
+
+1. Introduction to Git and GitHub
+2. Working with GitHub Repositories
+3. Collaboration Features
+4. Modern Development
+5. Project Management
+6. Privacy, Security, and Administration
+7. Benefits of the GitHub Community
+
 ## Audience Profile
 
 This exam is targeted towards GitHub users who want to validate their understanding of the foundational
@@ -46,96 +24,105 @@ topics, products, and concepts of collaborating, contributing, and working on Gi
 
 ## Recommendations and Best Practices for Success
 
-To increase your chances of success in passing the GitHub Foundations exam, it’s essential to start with a
-solid foundation of basic experience, exposure, and proficiency on GitHub. The recommended learning
+To increase your chances of success, the recommended learning
 paths for this exam provide you with an in-depth study of the learning content, followed by hands-on
-exercises and preparation assessment questions that were created to enable you to fine-tune your
-knowledge and readiness for the certification exam.
-
+exercises and preparation assessment questions.
 
 ## Domain 1: Introduction to Git and GitHub
 
-```
-Git and GitHub Basics
-```
-```
-Describe version control
-```
-```
-Define distributed version control
-```
-```
-Describe Git
-```
-```
-Describe GitHub
-```
-```
-Explain the difference between Git and GitHub
-```
-```
-Describe a GitHub repository
-```
-```
-Describe a commit
-```
-```
-Describe branching
-```
-```
-Define a remote in Git terminology
-```
-```
-Describe the GitHub flow
-```
+### Git and GitHub Basics 
 
-**GitHub Entities**
+<dl>
+  <dt>Describe version control</dt>
+  <dd>A version control system (VCS) is a program or set of programs that tracks changes to a collection of files.</dd>
+  
+  <dt>Define distributed version control</dt>
+  <dd>Is a form of version control in which the project's complete history is stored both on the client and on the server.</dd>
+  
+  <dt>Describe Git</dt>
+  <dd>Git is a distributed version control system that tracks changes in any set of computer files.</dd>
+  
+  <dt>Describe GitHub</dt>
+  <dd>is a cloud-based platform that uses Git, a distributed version control system, at its core.</dd>
+  <dt>Explain the difference between Git and GitHub</dt>
+  <dd></dd>
+  
+  <dt>Describe a GitHub repository</dt>
+  <dd>It's the container of all of your project's files and each file's revision history</dd>
+  <dd>The directory, located at the top level of a working tree, where Git keeps all the history and metadata for a project.</dd>
+  
+  <dt>Describe a commit</dt>
+  <dd>When used as an object, commit means a specific version of the working tree (the set of nest directories and files)</dd>
+  <dd>When used as a verb, commit means to make a commit object</dd>
+  
+  <dt>Describe branching</dt>
+  <dd>A branch is a named series of linked commits</dd>
+  <dd>Branching is the practice of creating branches</dd>
+  
+  <dt>Define a remote in Git terminology</dt>
+  <dd>A remote is a named reference to another Git repository</dd>
+  
+  <dt>Describe the GitHub flow</dt>
+  <dd>GitHub flow is a lightweight, branch-based workflow; a set of actions that must be executed in the following order: create a branch > make changes > create a pull request > address review comments > merge your pull request > delete your branch</dd>
+</dl>
 
-```
-Describe the different GitHub accounts (personal, organization, enterprise)
-```
-```
-Describe GitHub’s products for personal accounts (free, pro)
-```
-```
-Describe GitHub’s products for organization accounts (free for organizations, teams)
-```
-```
-Describe the different deployment options for GitHub Enterprise
-```
-```
-Describe the features in the user profile (metadata, achievements, profile readme, repositories, pinned repositories,
-stars, etc.)
-```
+#### Resources 
 
-**GitHub Markdown**
+* [What is version control?](https://learn.microsoft.com/pt-br/training/modules/intro-to-git/1-what-is-vc)
+* [What is GitHub?](https://learn.microsoft.com/en-us/training/modules/introduction-to-github/2-what-is-github)
+* [Git Website](https://git-scm.com/)
+* [Github Flow](https://docs.github.com/en/get-started/using-github/github-flow)
 
-Identify the text formatting toolbar on issue and pull request comments
+### GitHub Entities
 
-Describe Markdown
+<dl>
+  <dt>Describe the different GitHub accounts (personal, organization, enterprise)</dt>
+  <dd></dd>
+  <dt>Describe GitHub’s products for personal accounts (free, pro)</dt>
+  <dd></dd>
+  <dt>Describe GitHub’s products for organization accounts (free for organizations, teams)</dt>
+  <dd></dd>
+  <dt>Describe the different deployment options for GitHub Enterprise
+  </dt>
+  <dd></dd>
+  <dt>Describe the features in the user profile (metadata, achievements, profile readme, repositories, pinned repositories,
+stars, etc.)</dt>
+  <dd></dd>
+</dl>
 
-Identify the basic formatting syntax (headings, links, task lists, comments, etc.)
+### GitHub Markdown
 
-Explain where to find and use slash commands
+<dl>
+  <dt>Identify the text formatting toolbar on issue and pull request comments</dt>
+  <dd></dd>
+  <dt>Describe Markdown</dt>
+  <dd></dd>
+  <dt>Identify the basic formatting syntax (headings, links, task lists, comments, etc.)</dt>
+  <dd></dd>
+  <dt>Explain where to find and use slash commands</dt>
+  <dd></dd>  
+</dl>
 
-**GitHub Desktop**
+### GitHub Desktop
 
-```
-Explain the difference between GitHub Desktop and github.com
-```
-```
-Describe the available features with GitHub Desktop
-```
+<dl>
+  <dt>Explain the difference between GitHub Desktop and github.com</dt>
+  <dd></dd>
+  <dt>Describe the available features with GitHub Desktop</dt>
+  <dd></dd>
+</dl>
 
-**GitHub Mobile**
+### GitHub Mobile
 
-```
-Describe the available features with GitHub Mobile
-```
-```
-Explain how to manage notifications through the GitHub Mobile app
-```
+<dl>
+  <dt>Describe the available features with GitHub Mobile</dt>
+  <dd></dd>
+  <dt>Explain how to manage notifications through the GitHub Mobile app</dt>
+  <dd></dd>
+</dl>
 
+#### Resources
+  
 ## Domain 2: Working with GitHub Repositories
 
 ```
