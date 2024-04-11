@@ -151,7 +151,7 @@ stars, etc.)</dt>
 </dl>
 
 #### Resources 
-*[What is Markdown?](https://learn.microsoft.com/en-us/training/modules/communicate-using-markdown/2-what-is-markdown)
+* [What is Markdown?](https://learn.microsoft.com/en-us/training/modules/communicate-using-markdown/2-what-is-markdown)
 
 ### GitHub Desktop
 
@@ -182,7 +182,16 @@ stars, etc.)</dt>
 
 <dl>
 <dt>Understanding GitHub Repositories</dt>
-<dd></dd>
+<dd>It's a place where you can store your code, your files, and each file's revision history. Repositories can:
+  <br/>have multiple collaborators
+  <br/>be either public or private.
+  <br/>have issues to report bugs and organize tasks
+  <br/>have discussions to ask and answer questions
+  <br/>have change proposals (pull requests)
+  <br/>have Projects to organize and prioritize your issues and pull requests
+  <br/>be public or private, or internal (for enterprise accounts that uses GitHub Enterprise Cloud)
+  <br/>
+</dd>
 
 <dt>Describe the components of a good README and the recommended repository files (LICENSE, CONTRIBUTING,
 CODEOWNERS)</dt>
@@ -192,10 +201,14 @@ CODEOWNERS)</dt>
 <dd></dd>
 
 <dt>Explain how to create a new repository</dt>
-<dd>Sign in to GitHub, go to your dashboard, and select the plus ("+") icon in the upper-right corner.</dd>
+<dd>Web UI: Sign in to GitHub, go to your dashboard, and select the plus ("+") icon in the upper-right corner.</dd>
+<dd>GitHub CLI: `gh repo create`</dd>
+<dd>From a template: navigate to the main page of the repository, click Use this template, and Select Create a new repository.</dd>
+<dd>From a URL query: use query parameters to pre-fill form fields when creating a new repository - https://github.com/new?name=test-repo&owner=avocado-corp&visibility=public</dd>
+<dd>*Owners can restrict repository creation permissions in an organization</dd>
 
 <dt>Describe repository templates</dt>
-<dd></dd>
+<dd>A way to generate new repositories with the same directory structure, branches, and files of an existing repository (*except files stored using Git LFS).</dd>
 
 <dt>Describe the different features to maintaining a repository</dt>
 <dd></dd>
@@ -222,6 +235,10 @@ CODEOWNERS)</dt>
 
 #### Resources
   * [Get started with GitHub](https://learn.microsoft.com/en-us/training/modules/student-introduction-github/3-set-up-github)
+  * [About Repositories](https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories#about-repositories)
+  * [Creating a new repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository)
+  * [Creating a repository from a template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
+  * [Creating a template repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository)
 
 ## Domain 3: Collaboration Features
 
