@@ -183,19 +183,25 @@ stars, etc.)</dt>
 <dl>
 <dt>Understanding GitHub Repositories</dt>
 <dd>It's a place where you can store your code, your files, and each file's revision history. Repositories can:
-  <br/>have multiple collaborators
-  <br/>be either public or private.
-  <br/>have issues to report bugs and organize tasks
-  <br/>have discussions to ask and answer questions
-  <br/>have change proposals (pull requests)
-  <br/>have Projects to organize and prioritize your issues and pull requests
-  <br/>be public or private, or internal (for enterprise accounts that uses GitHub Enterprise Cloud)
+  <br/>- have multiple collaborators
+  <br/>- be either public or private.
+  <br/>- have issues to report bugs and organize tasks
+  <br/>- have discussions to ask and answer questions
+  <br/>- have change proposals (pull requests)
+  <br/>- have Projects to organize and prioritize your issues and pull requests
+  <br/>- be public or private, or internal (for enterprise accounts that uses GitHub Enterprise Cloud)
   <br/>
 </dd>
 
 <dt>Describe the components of a good README and the recommended repository files (LICENSE, CONTRIBUTING,
 CODEOWNERS)</dt>
-<dd></dd>
+<dd>code of conduct: defines standards for how to engage in a community.</dd>
+<dd>CONTRIBUTING: communicates how people should contribute to your project</dd>
+<dd>FUNDING: displays a sponsor button in your repository to increase the visibility of funding options for your open source project.</dd>
+<dd>GOVERNANCE: lets people know about how your project is governed.</dd>
+<dd>SECURITY: gives instructions on how to report a security vulnerability in your project.</dd>
+<dd>SUPPORT: lets people know about ways to get help with your project.</dd>
+<dd>LICENSE: </dd>
 
 <dt>Explain basic repository navigation</dt>
 <dd></dd>
@@ -239,6 +245,10 @@ CODEOWNERS)</dt>
   * [Creating a new repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository)
   * [Creating a repository from a template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
   * [Creating a template repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository)
+  * [About READMEs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)
+  * [Setting up your project for healthy contributions](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions)
+  * [Creating a default community health file](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file)
+  * [Adding a license to a repository](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository)
 
 ## Domain 3: Collaboration Features
 
@@ -560,8 +570,8 @@ Describe InnerSource
 ```
 Identify the differences between InnerSource and open source
 ```
-```
-Describe forking
+<dt>Describe forking</dt>
+<dd>It's best suited for accepting contributions from people that are unaffiliated with a project.</dd>
 ```
 ```
 Describe the components of a discoverable repository
