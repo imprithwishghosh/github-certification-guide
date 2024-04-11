@@ -7,6 +7,10 @@
 The domains provided in this study guide are intended to provide insight into the topic categories covered in
 the GitHub Foundations exam, along with the learning objective within each domain.
 
+## Resources
+* [Github Glossary](https://docs.github.com/en/get-started/learning-about-github/github-glossary)
+* [Github Docs](https://docs.github.com/en)
+
 ## Domain Breakdown
 
 1. Introduction to Git and GitHub
@@ -76,6 +80,7 @@ exercises and preparation assessment questions.
 * [Github Flow](https://docs.github.com/en/get-started/using-github/github-flow)
 * [Components of the GitHub flow](https://learn.microsoft.com/en-us/training/modules/introduction-to-github/3-components-of-github-flow)
 * [The purpose and importance of version control](https://learn.microsoft.com/en-us/training/modules/student-introduction-github/2-what-is-version-control)
+* [About commits](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits)
 
 ### GitHub Entities
 
@@ -100,12 +105,21 @@ exercises and preparation assessment questions.
   
   <dt>Describe the features in the user profile (metadata, achievements, profile readme, repositories, pinned repositories,
 stars, etc.)</dt>
-  <dd></dd>
+  <dd>Profile readme: a place to share information about yourself with the community on GitHub.com; GitHub will display it if you have a public repository with your username and a README.md file with any content;</dd>
+  <dd>Repositories: It's a place where you can store your code, your files, and each file's revision history. Can be public or private.</dd>
+  <dd>Pinned repositories: up to 6 public repository that you own or contributed last year; Once you pin items to your profile, the "Pinned" section replaces the "Popular repositories" section on your profile.</dd>
+  <dd>Badges: When you participate in certain programs, GitHub automatically displays a badge on your profile.</dd>
+  <dd>Achievements: appear as small badges listed in the sidebar of your profile that celebrates specific events and actions</dd>
+  <dd>Stars: Starring makes it easy to find a repository or topic again later, makes Github recommend similar repositories, and raises the project in Github's repository rankings.</dd>
 </dl>
 
 #### Resources 
 * [GitHub accounts and plans](https://learn.microsoft.com/en-us/training/modules/github-introduction-products/2-what-are-github-products)
-* 
+* [Types of GitHub accounts](https://docs.github.com/en/get-started/learning-about-github/types-of-github-accounts)
+* [Customizing your profile](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile)
+* [Saving repositories with stars](https://docs.github.com/en/get-started/exploring-projects-on-github/saving-repositories-with-stars#about-stars)
+* [Viewing contributions on your profile / Pinned](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile/viewing-contributions-on-your-profile#pinned)
+* [About repositories](https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories)
 
 ### GitHub Markdown
 
@@ -245,7 +259,7 @@ CODEOWNERS)</dt>
   <dt>Explain how to create a new pull request</dt>
   <dd></dd>
   
-  Describe the `base` and `compare` branches in a pull request</dt>
+  <dt>Describe the `base` and `compare` branches in a pull request</dt>
   <dd></dd>
   
   <dt>Explain the relationship of commits on a pull request</dt>
@@ -276,6 +290,7 @@ CODEOWNERS)</dt>
 #### Resources
   * [Components of the GitHub flow](https://learn.microsoft.com/en-us/training/modules/introduction-to-github/3-components-of-github-flow)
   * [The purpose and importance of version control](https://learn.microsoft.com/en-us/training/modules/student-introduction-github/2-what-is-version-control)
+  * [About pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
 
 ### Discussions ###
 <dl>
