@@ -126,15 +126,32 @@ stars, etc.)</dt>
 <dl>
   <dt>Identify the text formatting toolbar on issue and pull request comments</dt>
   <dd></dd>
+  
   <dt>Describe Markdown</dt>
-  <dd></dd>
+  <dd>Markdown is a markup language that offers a lean approach to content editing with a concise, lightweight syntax that strips out the overhead inherent to HTML, providing a more approachable creation experience.</dd>
+  
   <dt>Identify the basic formatting syntax (headings, links, task lists, comments, etc.)</dt>
-  <dd></dd>
+  <dd>Headings: </dd>
+  <dd>Italics: surround the target text with single asterisks (*) or single underscores (_)</dd>
+  <dd>Bold: surround the target text with two asterisks (**) or two underscores (__).</dd>
+  <dd>Literal asterisk: precede it with an escape character (\)</dd>
+  <dd>Headings: use one # for each heading level from 1-6. Ex: ###### This is H6 text</dd>
+  <dd>Images and Links: </dd>
+  <dd>Lists: ordered lists start with numbers Unordered lists can use asterisks ( /* ) or dashes ( - ); add whitespaces to nest them.</dd>
+  <dd>Tables: construct tables using a combination of pipes (|) for column breaks and dashes (-) to designate the prior row as a header.</dd><dd>Quotes: create blockquotes using the greater than (>)</dd> 
+  <dd>Inline code blocks: delimite it with the backtick (`) character. Ex: This is `code`.</dd>
+  <dd>Multiple lines code blocks: use three backticks (```) before and after to create a fenced code block; Add support to syntax highlighting for popular languages by specifying the language name as part of the first tick sequence.</dd>
+  <dd>Issues and Pull requests: use the format #ID, such as #3602. There are also additional conventions you can follow.</dd>
+  <dd>Specific commits: You can link to a commit by either pasting in its ID or simply using its secure hash algorithm (SHA).</dd>
+  <dd>Mention users and teams: Typing an @ symbol followed by a GitHub username or team</dd>
+  <dd>Task lists: using the syntax - [x] or - [ ]</dd>
+  
   <dt>Explain where to find and use slash commands</dt>
-  <dd></dd>  
+  <dd>Use slash commands to insert a Markdown code block</dd>
 </dl>
 
 #### Resources 
+*[What is Markdown?](https://learn.microsoft.com/en-us/training/modules/communicate-using-markdown/2-what-is-markdown)
 
 ### GitHub Desktop
 
