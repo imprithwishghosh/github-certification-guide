@@ -155,14 +155,15 @@ stars, etc.)</dt>
 
 <dl>
   <dt>Explain the difference between GitHub Desktop and github.com</dt>
-  <dd>The difference is the type of the solution: GitHub Desktop is an application that works with data from GitHub.com platform hosted on cloud.</dd>
+  <dd>The difference is the solution type: GitHub Desktop is an application that works with data from GitHub.com, a platform hosted on cloud.</dd>
   
   <dt>Describe the available features with GitHub Desktop</dt>
   <dd>
-    -Add and clone repositories;<br> 
-    -Add changes to your commit interactively;<br> 
-    -Quickly add co-authors to your commit;<br> 
-    -Check out branches with pull requests and view CI statuses; Compare changed images.
+    - Add and clone repositories;<br>
+    - Add changes to your commit interactively;<br>
+    - Quickly add co-authors to your commit;<br>
+    - Check out branches with pull requests and view CI statuses; Compare changed images.<br>
+    - Compare changed images.<br>
   </dd>
 </dl>
 
@@ -177,13 +178,15 @@ stars, etc.)</dt>
   <dd>Secure your GitHub.com account with two-factor authentication; Verify your sign in attempts on unrecognized devices; Search for, browse, and interact with users, repositories, issues, pull requests and organizations; Edit files in pull requests; Receive and schedule push notifications; Manage, triage, and clear notifications from github.com.</dd>
   
   <dt>Explain how to manage notifications through the GitHub Mobile app</dt>
-  <dd></dd>
+  <dd>In the bottom menu, tap Profile > To view your settings, tap the gear icon > tap Configure Notifications and then use the toggles to enable or disable your preferred types of push notifications.</dd>
+  <dd>You can choose also whether to watch or unwatch an individual repository. To choose what activities you receive notifications for, tap your preferred watch settings.</dd>
 </dl>
 
 #### Resources
 * [GitHub Mobile and GitHub Desktop](https://learn.microsoft.com/en-us/training/modules/github-introduction-products/3-mobile-versus-desktop)
 * [Configuring notifications](https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/configuring-notifications)
 * [Choosing your notification settings](https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/configuring-notifications#choosing-your-notification-settings)
+* [Managing your notification settings with GitHub Mobile](https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/configuring-notifications#managing-your-notification-settings-with-github-mobile)
   
 ## Domain 2: Working with GitHub Repositories
 
