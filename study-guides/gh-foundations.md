@@ -460,10 +460,9 @@ Explain the differences between the github.dev editor and a GitHub Codespace
 
 ## Domain 5: Project Management
 
+### Manage your work with GitHub Projects
+
 <dl>
-<dt>Manage your work with GitHub Projects</dt>
-<dd>You can create and customize multiple views by filtering, sorting, grouping your issues and pull requests, visualize work with configurable charts, and add custom fields to track metadata specific to your team.</dd>
-  
 <dt>Describe GitHub Projects</dt>
 <dd>Projects is an adaptable, flexible tool for planning and tracking work on GitHub.</dd>
 
@@ -491,7 +490,7 @@ Explain the differences between the github.dev editor and a GitHub Codespace
 <dd>You can use milestones to track progress on groups of issues or pull requests in a repository by associating issues and pull requests to them. From the milestone page you can see his metadata and the number and list of the open and closed issues and pull requests associated.</dd>
 
 <dt>Describe how to use and create template repos</dt>
-<dd></dd>
+<dd>After you make your repository a template, anyone with access to the repository can generate a new repository with the same directory structure and files as your default branch. </dd>
 
 <dt>Explain how to create, edit, and delete saved replies</dt>
 <dd>Create: click your profile photo, then click Settings. In the "Code, planning, and automation" section of the sidebar, click Saved replies. Add title and content and save it.</dd>
@@ -524,94 +523,113 @@ Explain the differences between the github.dev editor and a GitHub Codespace
 * [Automating your project](https://docs.github.com/en/issues/planning-and-tracking-with-projects/automating-your-project)
 * [Using labels and milestones to track work](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work)
 * [About saved replies](https://docs.github.com/en/get-started/writing-on-github/working-with-saved-replies/about-saved-replies)
+* [Creating a template repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository)
 
 ## Domain 6: Privacy, Security, and Administration
 
-```
-Authentication and Security
-```
-```
-Explain how to secure your account with 2FA
-```
-```
-Describe the different access permissions
-```
-```
-Explain EMUs (Enterprise Managed Users)
-```
-```
-GitHub Administration
-```
-```
-Explain how to enable and disable features
-```
-```
-Recognize repository permission levels
-```
-```
-Identify the options for repository visibility
-```
-```
-Explain repository privacy setting options (branch protections, codeowners, required reviewers)
-```
-```
-Describe the main features and options in the Security tab
-```
-```
-Define repository insights
-```
-```
-Explain how to manage collaborators
-```
+### Authentication and Security
+
+<dl>
+  <dt>Explain how to secure your account with 2FA</dt>
+  <dd></dd>
+  
+  <dt>Describe the different access permissions</dt>
+  <dd></dd>
+  
+  <dt>Explain EMUs (Enterprise Managed Users)</dt>
+  <dd></dd>
+  
+### GitHub Administration
+  
+  <dt>Explain how to enable and disable features</dt>
+  <dd></dd>
+  
+  <dt>Recognize repository permission levels</dt>
+  <dd></dd>
+  
+  <dt>Identify the options for repository visibility</dt>
+  <dd></dd>
+  
+  <dt>Explain repository privacy setting options (branch protections, codeowners, required reviewers)</dt>
+  <dd></dd>
+  
+  <dt>Describe the main features and options in the Security tab</dt>
+  <dd></dd>
+  
+  <dt>Define repository insights</dt>
+  <dd></dd>
+  
+  <dt>Explain how to manage collaborators</dt>
+  <dd></dd>
+  
+</dl>
+#### Resources
 
 ## Domain 7: Benefits of the GitHub Community
 
-```
-Describe the benefits of the open source community
-```
-```
-Describe open source
-```
-```
-Describe GitHub Sponsors
-```
-```
-Describe how GitHub advances open source projects
-```
-```
-Identify how to follow people (receive notifications, discover projects in their community)
-```
-```
-Explain how to follow organizations (receive notifications about their activity)
-```
-```
-Describe the GitHub Marketplace and its purpose
-```
-```
-Describe how to apply the benefits of open source
-```
-```
-Describe InnerSource
-```
-```
-Identify the differences between InnerSource and open source
-```
-<dt>Describe forking</dt>
-<dd>It's best suited for accepting contributions from people that are unaffiliated with a project.</dd>
-```
-```
-Describe the components of a discoverable repository
-```
-```
-Describe when to use issue templates
-```
-```
-Describe when to use pull request templates
-```
-```
-Explain how to manage organization settings
-```
-```
-Describe members, teams, and roles in a GitHub organization
-```
+### Describe the benefits of the open source community
+
+<dl>
+  <dt>Describe open source</dt>
+  <dd>Open source software is software that can be freely used, modified, and shared (in both modified and unmodified form) by anyone.</dd>
+  
+  <dt>Describe GitHub Sponsors</dt>
+  <dd>allows the developer community to financially support directly on GitHub the people and organizations from a range of sponsorship tiers in one-time or monthly payments. 100% of these sponsorships go to the sponsored developer or organization.</dd>
+  
+  <dt>Describe how GitHub advances open source projects</dt>
+  <dd>Discovering relevant projects</dd>
+  <dd>Making open source more secure</dd>
+  
+  <dt>Identify how to follow people (receive notifications, discover projects in their community)</dt>
+  <dd>Navigate to the user's profile page and under the user's profile picture, click Follow.</dd>
+  
+  <dt>Explain how to follow organizations (receive notifications about their activity)</dt>
+  <dd>Go to the organization page you want to follow. In the top-right corner, click Follow.</dd>
+  
+  <dt>Describe the GitHub Marketplace and its purpose</dt>
+  <dd>It connects you to developers who want to extend and improve their GitHub workflows. You can list free and paid tools (Actions and Apps) for developers to use. *only apps owned by organizations can sell their app.</dd>
+  
+</dl>
+
+#### Resources
+* [Open Source](https://docs.github.com/en/get-started/learning-about-github/github-glossary#open-source)
+* [About GitHub Sponsors](https://docs.github.com/en/sponsors/getting-started-with-github-sponsors/about-github-sponsors)
+* [Following organizations](https://docs.github.com/en/get-started/exploring-projects-on-github/following-organizations)
+* [Following people](https://docs.github.com/en/get-started/exploring-projects-on-github/following-people)
+* [GitHub Marketplace Overview](https://docs.github.com/en/apps/github-marketplace/github-marketplace-overview)
+* [Open source’s impact on the world’s 100 million developers](https://github.blog/2023-02-01-open-sources-impact-on-the-worlds-100-million-developers/)
+* [Finding ways to contribute to open source on GitHub]([Finding ways to contribute to open source on GitHub](https://docs.github.com/en/get-started/exploring-projects-on-github/finding-ways-to-contribute-to-open-source-on-github?finding-good-first-issues))
+
+### Describe how to apply the benefits of open source
+
+<dl>
+  <dt>Describe InnerSource</dt>
+  <dd> Innersource is a development methodology where engineers build proprietary software using best practices from large-scale open source projects.</dd>
+  
+  <dt>Identify the differences between InnerSource and open source</dt>
+  <dd>Innersource helps teams build software faster and work better together. As with open source, transparent collaboration mobilizes a community’s collective knowledge and skills to create better software. An innersource community, in contrast, contains the knowledge, skills, and abilities of people and tools within a single enterprise.</dd>
+  
+  <dt>Describe forking</dt>
+  <dd>It's best suited for accepting contributions from people that are unaffiliated with a project.</dd>
+  
+  <dt>Describe the components of a discoverable repository</dt>
+  <dd></dd>
+  
+  <dt>Describe when to use issue templates</dt>
+  <dd></dd>
+  
+  <dt>Describe when to use pull request templates</dt>
+  <dd></dd>
+  
+  <dt>Explain how to manage organization settings</dt>
+  <dd></dd>
+  
+  <dt>Describe members, teams, and roles in a GitHub organization</dt>
+  <dd></dd>
+
+</dl>
+
+#### Resources
+
+* [An introduction to innersource](https://resources.github.com/software-development/innersource/)
 
