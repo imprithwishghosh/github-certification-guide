@@ -1,5 +1,3 @@
-![GitHub Foundations Study Guide](../images/gh-foundations.png)
-
 # GitHub Foundations
 
 ## Objective Domains
@@ -202,6 +200,7 @@ CODEOWNERS)</dt>
 <dd>SECURITY: gives instructions on how to report a security vulnerability in your project.</dd>
 <dd>SUPPORT: lets people know about ways to get help with your project.</dd>
 <dd>LICENSE: </dd>
+<dd>CODEOWNERS: use a CODEOWNERS file to define ***individuals*** or ***teams*** that are responsible for code in a repository. Code owners are automatically requested for review when someone opens a pull request that modifies code that they own. To use a CODEOWNERS file, create a new file called CODEOWNERS in the .github/, root, or docs/ directory.</dd>
 
 <dt>Explain basic repository navigation</dt>
 <dd></dd>
@@ -249,6 +248,7 @@ CODEOWNERS)</dt>
   * [Setting up your project for healthy contributions](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions)
   * [Creating a default community health file](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file)
   * [Adding a license to a repository](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository)
+  * [About code owners](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners)
 
 ## Domain 3: Collaboration Features
 
@@ -460,45 +460,71 @@ Explain the differences between the github.dev editor and a GitHub Codespace
 
 ## Domain 5: Project Management
 
-```
-Manage your work with GitHub Projects
-```
-```
-Describe GitHub Projects
-```
-```
-Explain the layout options for projects
-```
-```
-Describe the configuration options for projects
-```
-```
-Explain the difference between projects and projects classic
-```
-```
-Explain the use of labels
-```
-```
-Explain the use of milestones
-```
-```
-Describe how to use and create template repos
-```
-```
-Explain how to create, edit, and delete saved replies
-```
-```
-Describe the benefits of using a saved reply
-```
-```
-Recognize how to add assignees to issues and pull requests
-```
-```
-Explain how to use project workflows
-```
-```
-Describe project insights
-```
+<dl>
+<dt>Manage your work with GitHub Projects</dt>
+<dd>You can create and customize multiple views by filtering, sorting, grouping your issues and pull requests, visualize work with configurable charts, and add custom fields to track metadata specific to your team.</dd>
+  
+<dt>Describe GitHub Projects</dt>
+<dd>Projects is an adaptable, flexible tool for planning and tracking work on GitHub.</dd>
+
+<dt>Explain the layout options for projects</dt>
+<dd>Table: adaptable spreadsheet comprised of your issues, pull requests, and draft issues with metadata from GitHub and the custom fields you've added to your project</dd>
+<dd>Board: spreads your issues, pull requests, and draft issues across customizable columns</dd>
+<dd>Roadmap: a high-level visualization of your project across a configurable timespan, and allows you to drag items to affect their start and target dates or selected iteration</dd>
+
+<dt>Describe the configuration options for projects</dt>
+<dd>Custom fields: </dd>
+<dd>Group view: </dd>
+<dd>Timelines: </dd>
+<dd>Iterations: An iteration field enables you to set up phases for your tasks in a tangible timeframe.</dd>
+<dd>Layout options: </dd>
+<dd>Visibility and access: control whether or not your Project is public or private</dd>
+<dd>Close and delete: Closing a Project enables you to remove it from the list of Projects but retain the content and ability to re-open it; Deleting a Project, however, permanently removes your Project from the platform along with his data;</dd>
+
+<dt>Explain the difference between projects and projects classic</dt>
+<dd>The main difference is the number of features available. The new GitHub Projects provide a richer experience with more automation options, insights, data, and layouts.</dd>
+
+<dt>Explain the use of labels</dt>
+<dd>Used to classify and categorize issues, pull requests, and discussions. GitHub provides manageable default labels in every new repository, but you can create new ones.</dd>
+
+<dt>Explain the use of milestones</dt>
+<dd>You can use milestones to track progress on groups of issues or pull requests in a repository by associating issues and pull requests to them. From the milestone page you can see his metadata and the number and list of the open and closed issues and pull requests associated.</dd>
+
+<dt>Describe how to use and create template repos</dt>
+<dd></dd>
+
+<dt>Explain how to create, edit, and delete saved replies</dt>
+<dd>Create: click your profile photo, then click Settings. In the "Code, planning, and automation" section of the sidebar, click Saved replies. Add title and content and save it.</dd>
+<dd>Edit: Under "Saved replies," next to the saved reply you want to edit, click on the pencil icon. Then, edit the title or content and click on update.
+</dd>
+<dd>Delete: Under "Saved replies", click on the X icon next to the saved reply you want to delete,.</dd>
+
+<dt>Describe the benefits of using a saved reply</dt>
+<dd>Saved replies allow you to Save time by creating a saved reply for the responses you use most frequently.</dd>
+
+<dt>Recognize how to add assignees to issues and pull requests</dt>
+<dd>Adding an existing issue and pull request: copy the url of an existing issue or pull request and paste it in the bottom row of the Project, right next the + icon.</dd>
+<dd>Searching for an existing issue and pull request: Enter #, Select the repository where the pull request or issue is located and then Select the issue or pull request.</dd>
+<dd>Bulk adding issues and pull request: in the bottom row of the Project, click +, and Next, click Add item from repository. Then, select all or select the ones you want to include.</dd>
+<dd>Automatically adding issues and pull requests: You can configure a built-in workflow to automatically add issues and pull requests from a repository when they meet specific filter criteria</dd>
+<dd>Assigning a project from within an issue or pull request: Navigate to the issue or pull request that you want to add to a project. In the side bar, click Projects and Select the project that you want to add.</dd>
+
+<dt>Explain how to use project workflows</dt>
+<dd>Projects includes built-in workflows that you can use to update the Status of items based on certain events. Navigate to your project, select Workflows in the menu and edit the workflow that you want. *The auto-add workflow is limited per plan.</dd>
+
+  <dt>Describe project insights</dt>
+  <dd>nsights with Projects enables you to view, create and customize current charts and historical charts that use items added to your Project as source data.</dd>
+</dl>
+
+#### Resources
+* [About Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects)
+* [Manage your work with GitHub Projects](https://learn.microsoft.com/en-us/training/modules/manage-work-github-projects/)
+* [Insight and automation with projects](https://learn.microsoft.com/en-us/training/modules/manage-work-github-projects/6-insight-automation-with-projects)
+* [Changing the layout of a view](https://docs.github.com/en/issues/planning-and-tracking-with-projects/customizing-views-in-your-project/changing-the-layout-of-a-view)
+* [Automating your project](https://docs.github.com/en/issues/planning-and-tracking-with-projects/automating-your-project)
+* [Using labels and milestones to track work](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work)
+* [About saved replies](https://docs.github.com/en/get-started/writing-on-github/working-with-saved-replies/about-saved-replies)
+
 ## Domain 6: Privacy, Security, and Administration
 
 ```
