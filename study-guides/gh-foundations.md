@@ -50,7 +50,7 @@ exercises and preparation assessment questions.
   <dd>a web-based hosting service for Git repositories.</dd>
   
   <dt>Explain the difference between Git and GitHub</dt>
-  <dd></dd>
+  <dd>The difference is the type of the technology; GitHub is a platform and Git is a technology;</dd>
   
   <dt>Describe a GitHub repository</dt>
   <dd> a storage location where all your project files and their version history are kept</dd>
@@ -97,8 +97,7 @@ exercises and preparation assessment questions.
   <dd>GitHub Free for organizations: unlimited public repositories with a full feature set or unlimited private repositories with a limited feature set. It has all the features available with GitHub Free for personal accounts, plus Team access controls for managing groups.</dd>
   <dd>GitHub Team: is the version of GitHub Pro for organizations. It provides increased GitHub Actions minutes and extra GitHub Packages storage.</dd>
   
-  <dt>Describe the different deployment options for GitHub Enterprise
-  </dt>
+  <dt>Describe the different deployment options for GitHub Enterprise</dt>
   <dd>GitHub Enterprise Server: a self-hosted solution that allows organizations to have full control over their infrastructure.</dd>
   <dd>GitHub Enterprise Cloud: infrastructure managed by Github. Includes a dramatic increase in both GitHub Actions minutes and GitHub Packages storage</dd>
   
@@ -156,12 +155,19 @@ stars, etc.)</dt>
 
 <dl>
   <dt>Explain the difference between GitHub Desktop and github.com</dt>
-  <dd></dd>
+  <dd>The difference is the type of the solution: GitHub Desktop is an application that works with data from GitHub.com platform hosted on cloud.</dd>
+  
   <dt>Describe the available features with GitHub Desktop</dt>
-  <dd>Add and clone repositories; Add changes to your commit interactively; Quickly add co-authors to your commit; Check out branches with pull requests and view CI statuses; Compare changed images.</dd>
+  <dd>
+    -Add and clone repositories;<br> 
+    -Add changes to your commit interactively;<br> 
+    -Quickly add co-authors to your commit;<br> 
+    -Check out branches with pull requests and view CI statuses; Compare changed images.
+  </dd>
 </dl>
 
 #### Resources 
+* [About GitHub Desktop](https://docs.github.com/en/desktop/overview/about-github-desktop)
 * [GitHub Mobile and GitHub Desktop](https://learn.microsoft.com/en-us/training/modules/github-introduction-products/3-mobile-versus-desktop)
   
 ### GitHub Mobile
@@ -176,6 +182,8 @@ stars, etc.)</dt>
 
 #### Resources
 * [GitHub Mobile and GitHub Desktop](https://learn.microsoft.com/en-us/training/modules/github-introduction-products/3-mobile-versus-desktop)
+* [Configuring notifications](https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/configuring-notifications)
+* [Choosing your notification settings](https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/configuring-notifications#choosing-your-notification-settings)
   
 ## Domain 2: Working with GitHub Repositories
 
@@ -605,7 +613,7 @@ Explain the differences between the github.dev editor and a GitHub Codespace
 
 <dl>
   <dt>Describe InnerSource</dt>
-  <dd> Innersource is a development methodology where engineers build proprietary software using best practices from large-scale open source projects.</dd>
+  <dd> Innersource is a development methodology where engineers build proprietary software using best practices from large-scale open source projects. It's the practice of applying open-source patterns to projects with a limited audience.</dd>
   
   <dt>Identify the differences between InnerSource and open source</dt>
   <dd>Innersource helps teams build software faster and work better together. As with open source, transparent collaboration mobilizes a community’s collective knowledge and skills to create better software. An innersource community, in contrast, contains the knowledge, skills, and abilities of people and tools within a single enterprise.</dd>
@@ -615,10 +623,14 @@ Explain the differences between the github.dev editor and a GitHub Codespace
   <dd>To keep your fork synced with the upstream repository add an upstream to the original owner repository URL.</dd>
   
   <dt>Describe the components of a discoverable repository</dt>
-  <dd>when you want to provide guidance (specific, structured information) for opening issues while allowing contributors to specify the content of their issues.</dd>
+  <dd>- Use a descriptive repository name<br>
+  - Include a concise description<br>
+  - License your repository<br>
+  - Include a README.md file<br>
+  </dd>
   
   <dt>Describe when to use issue templates</dt>
-  <dd>To receive proposed changes according to the repository's contributing guidelines.</dd>
+  <dd>when you want to provide guidance (specific, structured information) for opening issues while allowing contributors to specify the content of their issues.</dd>
   
   <dt>Describe when to use pull request templates</dt>
   <dd>To receive proposed changes according to the repository's contributing guidelines. *To enable it, you must create templates on the repository's default branch.</dd>
@@ -645,6 +657,7 @@ Explain the differences between the github.dev editor and a GitHub Codespace
 
 * [An introduction to innersource](https://resources.github.com/software-development/innersource/)
 * [Fork a repository](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)
+* [How to manage a successful InnerSource program](https://learn.microsoft.com/en-us/training/modules/manage-innersource-program-github/2-manage-innersource-program)
 * [About issue and pull request templates](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/about-issue-and-pull-request-templates)
 * [Configuring issue templates for your repository](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository)
 * [Creating a pull request template for your repository](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository)
