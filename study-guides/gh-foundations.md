@@ -599,7 +599,7 @@ Explain the differences between the github.dev editor and a GitHub Codespace
 * [Following people](https://docs.github.com/en/get-started/exploring-projects-on-github/following-people)
 * [GitHub Marketplace Overview](https://docs.github.com/en/apps/github-marketplace/github-marketplace-overview)
 * [Open source’s impact on the world’s 100 million developers](https://github.blog/2023-02-01-open-sources-impact-on-the-worlds-100-million-developers/)
-* [Finding ways to contribute to open source on GitHub]([Finding ways to contribute to open source on GitHub](https://docs.github.com/en/get-started/exploring-projects-on-github/finding-ways-to-contribute-to-open-source-on-github?finding-good-first-issues))
+* [Finding ways to contribute to open source on GitHub](https://docs.github.com/en/get-started/exploring-projects-on-github/finding-ways-to-contribute-to-open-source-on-github?finding-good-first-issues)
 
 ### Describe how to apply the benefits of open source
 
