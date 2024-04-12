@@ -8,6 +8,7 @@ the GitHub Foundations exam, along with the learning objective within each domai
 ## Resources
 * [Github Glossary](https://docs.github.com/en/get-started/learning-about-github/github-glossary)
 * [Github Docs](https://docs.github.com/en)
+* [GitHub Foundations Learning Path](https://learn.microsoft.com/en-us/collections/o1njfe825p602p)
 
 ## Domain Breakdown
 
@@ -610,26 +611,45 @@ Explain the differences between the github.dev editor and a GitHub Codespace
   <dd>Innersource helps teams build software faster and work better together. As with open source, transparent collaboration mobilizes a community’s collective knowledge and skills to create better software. An innersource community, in contrast, contains the knowledge, skills, and abilities of people and tools within a single enterprise.</dd>
   
   <dt>Describe forking</dt>
-  <dd>It's best suited for accepting contributions from people that are unaffiliated with a project.</dd>
+  <dd>A fork is a new repository that shares code and visibility settings with the original “upstream” repository. It's best suited for accepting contributions from people that are unaffiliated with a project. This is the common workflow: Fork the repository > Make the fix > Submit a pull request to the project owner.</dd>
+  <dd>To keep your fork synced with the upstream repository add an upstream to the original owner repository URL.</dd>
   
   <dt>Describe the components of a discoverable repository</dt>
-  <dd></dd>
+  <dd>when you want to provide guidance (specific, structured information) for opening issues while allowing contributors to specify the content of their issues.</dd>
   
   <dt>Describe when to use issue templates</dt>
-  <dd></dd>
+  <dd>To receive proposed changes according to the repository's contributing guidelines.</dd>
   
   <dt>Describe when to use pull request templates</dt>
-  <dd></dd>
+  <dd>To receive proposed changes according to the repository's contributing guidelines. *To enable it, you must create templates on the repository's default branch.</dd>
   
   <dt>Explain how to manage organization settings</dt>
-  <dd></dd>
+  <dd>The organization account settings page provides several ways to manage the account, such as billing, team membership, and repository settings: In the upper-right corner of GitHub.com, select your profile photo, then click  Your organizations. Next to the organization, click Settings.</dd>
   
   <dt>Describe members, teams, and roles in a GitHub organization</dt>
-  <dd></dd>
-
+  <dd>Members: You can invite anyone to become a member of your organization using their username or email address for GitHub.com: In the upper-right corner of GitHub.com, select your profile photo, then click  Your organizations > Under your organization name, click  People > Click Invite member.</dd>
+  <dd>Teams: You can use teams to manage access for people in an organization, and for sending notifications. They can be visible or secret, and they can also be nested to reflect your group or company's hierarchy within your GitHub organization. *Important: Teams can only be made up of members of your organization.</dd>
+  <dd>Roles: A role is a set of permissions you can assign to individuals or teams. Role levels: Repository-level, Team-level and Organization-level.<br>
+  <h5>Organization roles</h5>
+  - Organization owners<br>
+  - Organization members<br>
+  - Organization moderators<br>
+  - Billing managers<br>
+  - Security managers<br>
+  - GitHub App managers<br>
+  - Outside collaborators<br>
+  </dd>
 </dl>
 
 #### Resources
 
 * [An introduction to innersource](https://resources.github.com/software-development/innersource/)
+* [Fork a repository](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)
+* [About issue and pull request templates](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/about-issue-and-pull-request-templates)
+* [Configuring issue templates for your repository](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository)
+* [Creating a pull request template for your repository](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository)
+* [Managing organization settings](https://docs.github.com/en/organizations/managing-organization-settings)
+* [Inviting users to join your organization](https://docs.github.com/en/organizations/managing-membership-in-your-organization/inviting-users-to-join-your-organization)
+* [About teams](https://docs.github.com/en/organizations/organizing-members-into-teams/about-teams)
+* [Roles in an organization](https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization)
 
