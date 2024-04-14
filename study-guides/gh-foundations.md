@@ -123,7 +123,7 @@ stars, etc.)</dt>
 
 <dl>
   <dt>Identify the text formatting toolbar on issue and pull request comments</dt>
-  <dd></dd>
+  <dd>Every comment field on GitHub contains a text formatting toolbar, which allows you to format your text without learning Markdown syntax.</dd>
   
   <dt>Describe Markdown</dt>
   <dd>Markdown is a markup language that offers a lean approach to content editing with a concise, lightweight syntax that strips out the overhead inherent to HTML, providing a more approachable creation experience.</dd>
@@ -217,6 +217,10 @@ CODEOWNERS)</dt>
 <dt>Explain basic repository navigation</dt>
 <dd></dd>
 
+<dt>Explain code navigation</dt>
+<dd>Code navigation uses the open source tree-sitter library to help you to read, navigate, and understand code by showing and linking definitions of a named entity corresponding to a reference to that entity. ![image](https://github.com/diogokobbi/github-certification-guide/assets/7206693/c0fda833-a5ad-479d-b29f-e9ca33eb3f81)
+</dd>
+
 <dt>Explain how to create a new repository</dt>
 <dd>Web UI: Sign in to GitHub, go to your dashboard, and select the plus ("+") icon in the upper-right corner.</dd>
 <dd>GitHub CLI: `gh repo create`</dd>
@@ -231,22 +235,43 @@ CODEOWNERS)</dt>
 <dd></dd>
 
 <dt>Describe how to clone a repository</dt>
-<dd></dd>
+<dd>Cloning a repository pulls down a full copy of all the repository data that GitHub.com has at that point in time: <br>
+  > On GitHub.com, navigate to the main page of the repository<br>
+  > Above the list of files, click  Code<br>
+  > Copy the URL for the repository<br>
+  > Open Git Bash<br>
+  > Change the current working directory to the location where you want the cloned directory.<br>
+  > Type git clone, and then paste the URL you copied earlier.
+  > Press Enter to create your local clone.<br>
+
+Alternatively, ***to clone your repository in Desktop***, click "Set up in Desktop" and follow the prompts to complete the clone.
+</dd>
 
 <dt>Describe how to create a new branch</dt>
+<dd>Creating a branch via the branches overview: From the file tree view on the left, select the  branch dropdown menu, then click View all branches > Click New branch.</dd>
 <dd></dd>
+<dd>create a branch directly from the issue page: navigate to the issue that you would like to create a branch for > In the right sidebar under "Development", click Create a branch.</dd>
+<dd>Note: You can only create a branch in a repository to which you have push access.</dd>
 
 <dt>Explain how to add files to a repository</dt>
-<dd></dd>
+<dd>Adding a file to a repository on GitHub: navigate to the main page of the repository > Above the list of files, select the Add file dropdown menu and click Upload files.</dd>
+<dd>Adding a file to a repository using the command line: Open Git Bash > Change the current working directory to your local repository > Stage the file for commit to your local repository > Commit the file that you've staged in your local repository > Push the changes in your local repository to GitHub.com</dd>
+<dd>Adding a file not tracked by any VCS: <br>
+  > Initialize the local directory as a Git repository<br>
+  > Add the files in your new local repository<br>
+  > Commit the files that you've staged in your local repository.<br>
+    > Add the URL for the remote repository where your local repository will be pushed (git remote add origin REMOTE-URL)<br>
+    > OR use the `gh repo create` subcommand from GitHub CLI and Follow the interactive prompts
+</dd>
 
 <dt>Identify how to view repository insights</dt>
-<dd></dd>
+<dd>You can view an overview of a repository's activity through Pulse: On GitHub.com, navigate to the main page of the repository > Under your repository name, click  Insights.</dd>
 
 <dt>Explain how to save a repository with stars</dt>
-<dd></dd>
+<dd>Starring makes it easy to find a repository or topic again later: On GitHub.com, navigate to the main page of the repository > In the top-right corner of the page, click Star.</dd>
 
 <dt>Explain feature previews</dt>
-<dd></dd>
+<dd>You can use feature preview to see products or features that are available in beta and to enable or disable each feature for your personal account.</dd>
 
 </dl>
 
@@ -261,6 +286,12 @@ CODEOWNERS)</dt>
   * [Creating a default community health file](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file)
   * [Adding a license to a repository](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository)
   * [About code owners](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners)
+  * [Navigating code on GitHub](https://docs.github.com/en/repositories/working-with-files/using-files/navigating-code-on-github)
+  * [Adding a file to a repository on GitHub](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository)
+  * [Adding a file to a repository using the command line](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository#adding-a-file-to-a-repository-using-the-command-line)
+  * [Viewing activity and data for your repository](https://docs.github.com/en/repositories/viewing-activity-and-data-for-your-repository)
+  * [Saving repositories with stars](https://docs.github.com/en/get-started/exploring-projects-on-github/saving-repositories-with-stars)
+  * [Exploring early access releases with feature preview](https://docs.github.com/en/get-started/using-github/exploring-early-access-releases-with-feature-preview)
 
 ## Domain 3: Collaboration Features
 
@@ -269,7 +300,10 @@ CODEOWNERS)</dt>
   <dd>Issues are for tracking ideas, feedback, tasks, or bugs for work on GitHub</dd>
 
 <dt>Describe how to link a PR to an issue</dt>
-<dd></dd>
+<dd>You can link an issue to a pull request manually or using a supported keyword in the pull request description. When you merge a linked pull request into the default branch of a repository, its linked issue is automatically closed:<br>
+- Manually: In the list of pull requests, click the pull request that you'd like to link to an issue > In the right sidebar, click Development > Click the issue you want to link to the pull request.<br>
+- using a supported keyword: close; closes; closed; fix; fixes; fixed; resolve; resolves; resolved. Example :	Closes #10<br>
+</dd>
 
 <dt>Describe how to create an issue</dt>
 <dd>Under your repository name, select Issues and then select New Issue</dd>
@@ -281,10 +315,10 @@ CODEOWNERS)</dt>
 <dd></dd>
 
 <dt>Explain how to create a branch from an issue</dt>
-<dd></dd>
+<dd>create a branch directly from the issue page: navigate to the issue that you would like to create a branch for > In the right sidebar under "Development", click Create a branch</dd>
 
 <dt>Identify how to assign issues</dt>
-<dd></dd>
+<dd>Open the issue or pull request that you want to assign to someone. In the right side menu, click Assignees.</dd>
 
 <dt>Describe how to search and filter issues</dt>
 <dd></dd>
@@ -305,6 +339,8 @@ CODEOWNERS)</dt>
 
 #### Resources
 * [GitHub is a collaborative platform](https://learn.microsoft.com/en-us/training/modules/introduction-to-github/4-collaborative-platform)
+* [Linking a pull request to an issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue)
+* [Assigning issues and pull requests to other GitHub users](https://docs.github.com/en/issues/tracking-your-work-with-issues/assigning-issues-and-pull-requests-to-other-github-users)
 
 ### Pull requests
 
@@ -313,40 +349,65 @@ CODEOWNERS)</dt>
   <dd>a request to merge the changes you made in a branch to another branch of the repository.</dd>
 
   <dt>Explain how to create a new pull request</dt>
-  <dd></dd>
+  <dd>Web Browser: </dd>
+  <dd>Desktop: </dd>
+  <dd>Codespaces: </dd>
+  <dd>Github CLI: use the `gh pr create` subcommand</dd>
+  <dd>From Fork: <br>
+    - Navigate to the original repository where you created your fork.<br>
+    - Above the list of files, in the yellow banner, click Compare & pull request to create a pull request for the associated branch.<br>
+    - On the page to create a new pull request, click compare across forks.<br>
+    - In the "base branch" dropdown menu, select the branch of the upstream repository you'd like to merge changes into.<br>
+    - In the "head fork" dropdown menu, select your fork, then use the "compare branch" drop-down menu to select the branch you made your changes in<br>
+    - Type a title and description<br>
+</dd>
+  <dd>Note: If you want to create a new branch for your pull request and do not have write permissions to the repository, you can fork the repository first.</dd>
   
   <dt>Describe the `base` and `compare` branches in a pull request</dt>
-  <dd></dd>
+  <dd>the base branch is where changes should be applied, the head branch (compare) contains what you would like to be applied.</dd>
   
   <dt>Explain the relationship of commits on a pull request</dt>
-  <dd></dd>
+  <dd>commits will appear in chronological order within your pull request and the changes will be visible in the "Files changed" tab.</dd>
   
   <dt>Describe draft pull requests</dt>
-  <dd></dd>
+  <dd>If you're not ready to get feedback on your pull request you can create Draft pull requests, because they cannot be merged, and code owners are not automatically requested to review it.</dd>
   
   <dt>Describe the purpose of the pull request tabs (conversation, commits, checks, files changed)</dt>
-  <dd></dd>
+  <dd>Conversation: view all of the reviews a pull request has received</dd>
+  <dd>Commits: </dd>
+  <dd>Checks: Checks let you know if your commits meet the conditions set for the repository. view detailed build output from checks and rerun failed checks.</dd>
+  <dd>Files changed: </dd>
   
   <dt>Identify how to link activity within a pull request</dt>
   <dd></dd>
   
   <dt>Explain the different pull request statuses</dt>
-  <dd></dd>
+  <dd>Draft: Cannot be merged and code owners ***are not*** automatically requested to review it.</dd>
+  <dd>Ready for review: Can be merged and code owners are automatically requested to review it.</dd>
   
-  Recognize how to comment on a posted link to a line or lines of code from a file</dt>
-  <dd></dd>
+  <dt>Recognize how to comment on a posted link to a line or lines of code from a file</dt>
+  <dd>While reviewing a pull request, Hover over the line of code where you'd like to add a comment, and click the blue comment icon. To add a comment on multiple lines, click and drag to select the range of lines, then click the blue comment icon.</dd>
+  <dd>To comment directly on a file, to the right of the file, click  and type your comment.</dd>
   
   <dt>Describe code review with a codeowners file</dt>
   <dd></dd>
   
   <dt>Explain the different options for providing a code review on a pull request (comment, approve, request changes, suggested changes)</dt>
-  <dd></dd>
+  <dd>Comment: Submit general feedback without explicitly approving the changes or requesting additional changes</dd>
+  <dd>Approve:  Submit feedback and approve merging the changes proposed in the pull request.</dd>
+  <dd>Request changes: Submit feedback that must be addressed before the pull request can be merged.</dd>
+  <dd>Suggested changes: Suggest specific changes to lines of code, which the author can apply directly from the pull request.</dd>
 </dl>
 
 #### Resources
   * [Components of the GitHub flow](https://learn.microsoft.com/en-us/training/modules/introduction-to-github/3-components-of-github-flow)
   * [The purpose and importance of version control](https://learn.microsoft.com/en-us/training/modules/student-introduction-github/2-what-is-version-control)
   * [About pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
+  * [Creating a Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request?tool=codespaces)
+  * [Changing the stage of a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/changing-the-stage-of-a-pull-request)
+  * [Reviewing proposed changes in a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/reviewing-proposed-changes-in-a-pull-request)
+  * [About comparing branches in pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-comparing-branches-in-pull-requests)
+  * [](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/collaborating-on-repositories-with-code-quality-features/about-status-checks#checks)
 
 ### Discussions ###
 <dl>
@@ -362,18 +423,23 @@ CODEOWNERS)</dt>
   <dd>Show and tell: Creations, experiments, or tests relevant to the project</dd>
   
   <dt>Identify how to mark a comment as an answer to a discussion</dt>
-  <dd></dd>
+  <dd>>Under your repository or organization name, click  Discussions<br>
+    > In the discussion, find the comment you want to mark as the answer<br>
+    > Below the comment, click Mark as answer.</dd>
   
   <dt>Explain how to convert a discussion to an issue</dt>
-  <dd></dd>
+  <dd>click the discussion you want to view > In the right sidebar, click  Create issue from discussion</dd>
   
   <dt>Recognize how to pin a discussion</dt>
-  <dd></dd>
+  <dd>In the list of discussions, click the discussion you want to view > In the right sidebar, click  Pin discussion.</dd>
   
 </dl>
 
 #### Resources
-*[GitHub is a collaborative platform](https://learn.microsoft.com/en-us/training/modules/introduction-to-github/4-collaborative-platform)
+* [GitHub is a collaborative platform](https://learn.microsoft.com/en-us/training/modules/introduction-to-github/4-collaborative-platform)
+* [Moderating discussions](https://docs.github.com/en/discussions/managing-discussions-for-your-community/moderating-discussions)
+* [Creating an issue from discussion](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue#creating-an-issue-from-discussion)
+* [Pinning a discussion](https://docs.github.com/en/discussions/managing-discussions-for-your-community/managing-discussions#pinning-a-discussion)
 
 ### Notifications ###
 
@@ -393,28 +459,40 @@ CODEOWNERS)</dt>
   <dt>Explain the different notification configuration options</dt>
   <dd></dd>
   
-  <dt>Gists, Wikis, and GitHub Pages</dt>
-  <dd></dd>
+  ### Gists, Wikis, and GitHub Pages
+
+  <dt>Explain Gists</dt>
+  <dd>Gists provide a simple way to share code snippets with others. Every gist is a Git repository, which means that it can be forked and cloned.</dd>
     
   <dt>Explain how to create a GitHub gist</dt>
-    <dd></dd>
+    <dd>Navigate to the *[gist.github.com page](gist.github.com) page > Click Create secret Gist or Create public gist.</dd>
     
   <dt>Describe how to fork and clone a gist</dt>
-    <dd></dd>
+    <dd>To fork a gist, acess the gist page and click on "Fork this gist".</dd>
+    <dd>To clone a gist, select the Embed dropdown menu on your gist page, then click Clone via HTTPS or Clone via SSH.</dd>
     
   <dt>Explain GitHub Wiki pages</dt>
-    <dd></dd>
+  <dd>Every repository on GitHub.com comes equipped with a section for hosting documentation, called a wiki. You can use your repository's wiki to share long-form content about your project.</dd>
     
   <dt>Describe how to create, edit, and delete wiki pages</dt>
-    <dd></dd>
+    <dd>On GitHub.com: navigate to the main page of the repository > Under your repository name, click  Wiki. > In the upper-right corner of the page, click New Page.</dd>
+    <dd>Locally: Wikis are part of Git repositories, so you can make changes locally and push them to your repository using a Git workflow. `$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.wiki.git`</dd>
     
   <dt>Explain the visibility of wiki pages</dt>
-    <dd></dd>
+  <dd>If you create a wiki in a public repository, the wiki is available to the public. If you create a wiki in a private repository, only people with access to the repository can access the wiki.</dd>dd>
+  <dd>Note: Wikis are available in public repositories with GitHub Free and GitHub Free for organizations, and in public and private repositories with GitHub Pro, GitHub Team, GitHub Enterprise Cloud, and GitHub Enterprise Server. </dd>
     
   <dt>Describe GitHub Pages</dt>
-    <dd></dd>
+  <dd>GitHub Pages is a static site hosting service that takes HTML, CSS, and JavaScript files straight from a repository on GitHub, optionally runs the files through a build process, and publishes a website.</dd>
     
 </dl>
+
+#### Resources
+* [Creating gists](https://docs.github.com/en/get-started/writing-on-github/editing-and-sharing-content-with-gists/creating-gists)
+* [Forking and cloning gists](https://docs.github.com/en/get-started/writing-on-github/editing-and-sharing-content-with-gists/forking-and-cloning-gists)
+* [About Wikis](https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis)
+* [About Github Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages)
+* [About Github Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages)
 
 ## Domain 4: Modern Development
 
@@ -431,6 +509,9 @@ CODEOWNERS)</dt>
 <dd></dd>
 </dl>
 
+#### Resources
+* [Introduction to GitHub Actions](https://learn.microsoft.com/en-us/training/modules/introduction-to-github-actions/)
+
 ### GitHub Copilot
 
 <dl>
@@ -444,6 +525,9 @@ CODEOWNERS)</dt>
 <dd></dd>
 </dl>
 
+#### Resources
+* [Introduction to GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/introduction-to-github-copilot/)
+
 ### GitHub Codespaces
 
 <dl>
@@ -453,10 +537,6 @@ CODEOWNERS)</dt>
   2. A container is created.<br>
   3. A connection to the Codespace is made.<br>
   4. A post-creation setup is made.<br>
-
-  Components<br>
-  - Devcontainer.json file:<br>
-  - Container file (docker or docker compose): <br>
     
     ![image](https://github.com/diogokobbi/github-certification-guide/assets/7206693/be4a98b7-524b-4732-9465-fa8d4978e244)
 
