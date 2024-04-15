@@ -9,6 +9,7 @@ the GitHub Foundations exam, along with the learning objective within each domai
 * [Github Glossary](https://docs.github.com/en/get-started/learning-about-github/github-glossary)
 * [Github Docs](https://docs.github.com/en)
 * [GitHub Foundations Learning Path](https://learn.microsoft.com/en-us/collections/o1njfe825p602p)
+* [GitHub Foundations Certification – Exam Prep Guide](https://www.freecodecamp.org/news/github-foundations-certified-exam-prep-guide/#domain7benefitsofthegithubcommunity)
 
 ## Domain Breakdown
 
@@ -516,13 +517,20 @@ Alternatively, ***to clone your repository in Desktop***, click "Set up in Deskt
 
 <dl>
 <dt>Describe GitHub Copilot</dt>
-<dd></dd>
+<dd>GitHub Copilot is a service that provides you with an AI pair programmer tool that draws context from comments and code to suggest individual lines and whole functions instantly.<br>
+Some features:<br>
+- suggest individual lines and whole functions;<br>
+- in-depth analysis and explanations of what code blocks are intended to do;<br>
+- generate unit tests;<br>
+- get proposed fixes to bugs;<br>
+</dd>
 
 <dt>Describe the difference between GitHub Copilot for Individuals and GitHub Copilot for Business</dt>
-<dd></dd>
+<dd>The differences are the cost, the type of account that can use it, and the features available. Enterprise has all business features, plus Copilot Chat in Github and Pull Request summaries. Business has all individual features plus audit logs, exclude specified files and Organization-wide policy management.</dd>
 
 <dt>Explain how to get started using GitHub Copilot</dt>
-<dd></dd>
+<dd>First, set up a free trial or subscription for your personal account on Code, planning, and automation menu. Then,  install an extension for your preferred environment.</dd>
+<dd>Note: Network restrictions, firewalls, or your proxy may cause issues when connecting to GitHub Copilot.</dd>
 </dl>
 
 #### Resources
@@ -654,39 +662,81 @@ Alternatively, ***to clone your repository in Desktop***, click "Set up in Deskt
 
 <dl>
   <dt>Explain how to secure your account with 2FA</dt>
-  <dd></dd>
+  <dd>With 2FA, you have to log in with your username and password and provide another form of authentication that only you know or have access to. You can configure two-factor authentication (2FA) using a TOTP app on mobile or desktop or via text message:<br>
+  > In the upper-right corner of any page, click your profile photo, then click Settings.<br>
+  > In the "Access" section of the sidebar, click  Password and authentication<br>
+  > In the "Two-factor authentication" section of the page, click Enable two-factor authentication and follow the instructions;
+  </dd>
   
   <dt>Describe the different access permissions</dt>
-  <dd></dd>
+  <dd> permission is the ability to perform a specific action. A role is a set of permissions you can assign to individuals or teams.<br>
+  - Personal accounts: has two permission levels: the repository owner and collaborators;
+  - Organization accounts:  can have owner, billing manager, or member roles;
+  - Enterprise account: can have enterprise owner, billing manager, enterprise member and guest collaborator (currently in public beta)</dd>
   
   <dt>Explain EMUs (Enterprise Managed Users)</dt>
-  <dd></dd>
+  <dd>With Enterprise Managed Users, you manage the lifecycle and authentication of your users on GitHub.com from an external identity management system, or IdP. On your IdP, you can give each managed user account a role.</dd>
+
+#### Resources
+* [Securing your account with two-factor authentication (2FA)](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa)
+* [Configuring two-factor authentication](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication)
+* [Access permissions on GitHub](https://docs.github.com/en/get-started/learning-about-github/access-permissions-on-github)
+* [Roles in an enterprise](https://docs.github.com/en/enterprise-cloud@latest/admin/managing-accounts-and-repositories/managing-users-in-your-enterprise/roles-in-an-enterprise)
+* [About Enterprise Managed Users](https://docs.github.com/en/enterprise-cloud@latest/admin/identity-and-access-management/understanding-iam-for-enterprises/about-enterprise-managed-users)
   
 ### GitHub Administration
   
   <dt>Explain how to enable and disable features</dt>
-  <dd></dd>
+  <dd>In the repositories settings you can enable and disable the following features: Wikis, Issues, Sponsorships, Discussions, Projects, and the ability to Preserve this repository via the GitHub Archive Program.</dd>
   
   <dt>Recognize repository permission levels</dt>
-  <dd></dd>
+  <dd>Read: Allows users to clone the repository and pull updates. They can view issues, pull requests, wikis, and the project's settings.</dd>
+  <dd>Triage: Recommended for contributors who need to proactively manage issues and pull requests without write access.</dd>
+  <dd>Write: Includes all Read permissions. Additionally, users can push changes to the repository, merge pull requests, and manage issues and pull requests.</dd>
+  <dd>Maintain: Includes Write permissions. Users can manage the repository without access to sensitive or destructive actions.</dd>
+  <dd>Admin: Full control over the repository.</dd>
   
   <dt>Identify the options for repository visibility</dt>
-  <dd></dd>
+  <dd>Private: When you change a private repository to public, all the commits in that repository, including any commits made in the repositories it was forked into, will be visible to everyone, plus Each private fork will become a separate private repository and create its own independent network of repositories. <br>When you delete a private repository, all of its private forks are also deleted.</dd>
+  <dd>Internal: All enterprise members have read permissions to the internal repository, but internal repositories are not visible to people outside of the enterprise. If you change the visibility of an internal repository, any fork owned by an organization or personal account will remain private. When you delete the repository, the forks will continue to exist in a separate network.</dd>
+  <dd>Public: Everyone has read access. If a public repository is made private, its public forks are split off into a new network. When you delete a private repository, all of its private forks are also deleted.</dd>
   
   <dt>Explain repository privacy setting options (branch protections, codeowners, required reviewers)</dt>
-  <dd></dd>
+  <dd>Branch Protections: Used to protect important branches. Defines whether collaborators can delete or force push to the branch and set requirements for any pushes to the branch.</dd>
   
   <dt>Describe the main features and options in the Security tab</dt>
-  <dd></dd>
+  <dd>policies: allow you to specify how to report a security vulnerability in your project by adding a SECURITY.md file to your repository.
+  </dd>
+  <dd>Advisories: use to privately discuss, fix, and publish information about security vulnerabilities in your repository.</dd>
+  <dd>Dependabot: alert you when GitHub detects that your repository is using a vulnerable dependency or malware.</dd>
+  <dd>Code scanning: helps you find, triage, and fix vulnerabilities and errors in your code.</dd>
   
   <dt>Define repository insights</dt>
-  <dd></dd>
+  <dd> provide a range of analytical data and visualizations about the activity and health of a repository.<br>
+  - Pulse: Provides a summary of the activity in the repository over a specific period (daily, weekly, monthly).<br>
+  - Contributors: Shows the number of contributions (commits) from each contributor over time.<br>
+  - Community:  Shows contribution activitity to Discussions, Issues, and PRs.<br>
+  - Community Standards: Compares the repository to the recommended community standards.<br>
+  - Traffic: Shows number of clones and visitors over time.<br>
+  - Commits: Visualizes commit activity over time.<br>
+  - Code frequency: Displays the frequency of additions and deletions to the codebase over time.<br>
+  - Dependency Graph: Shows the repository’s dependencies and the projects that depend on it.<br>
+  - Network: Timeline of the most recent commits to this repository and its network ordered by most recently pushed to.<br>
+  - Forks: Who has forked the repo, either in tree or list form.<br>
+  </dd>
   
   <dt>Explain how to manage collaborators</dt>
-  <dd></dd>
+  <dd>To Add Collaborators: Click on the "Settings" tab near the top of the repository page. Click on "Collaborators". Click on the "Add people" button.</dd>
+  <dd>Remove Collaborator: To remove a collaborator, click on the “Remove” button next to their name.</dd>
+  <dd>Approving Requests: If someone requests access to your repository, you will receive a notification. You can approve or deny these requests in the "Manage access" section.</dd>
   
 </dl>
+
 #### Resources
+
+* [Setting repository visibility](https://docs.github.com/en/enterprise-cloud@latest/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/setting-repository-visibility)
+* [Viewing people in your enterprise](https://docs.github.com/en/enterprise-cloud@latest/admin/managing-accounts-and-repositories/managing-users-in-your-enterprise/viewing-people-in-your-enterprise)
+* []()
 
 ## Domain 7: Benefits of the GitHub Community
 
