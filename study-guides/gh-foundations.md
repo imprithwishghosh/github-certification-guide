@@ -216,7 +216,7 @@ CODEOWNERS)</dt>
 <dd>CODEOWNERS: use a CODEOWNERS file to define ***individuals*** or ***teams*** that are responsible for code in a repository. Code owners are automatically requested for review when someone opens a pull request that modifies code that they own. To use a CODEOWNERS file, create a new file called CODEOWNERS in the .github/, root, or docs/ directory.</dd>
 
 <dt>Explain basic repository navigation</dt>
-<dd></dd>
+<dd>In the upper-right corner of any page, select the dropdown, then click New repository.</dd>
 
 <dt>Explain code navigation</dt>
 <dd>Code navigation uses the open source tree-sitter library to help you to read, navigate, and understand code by showing and linking definitions of a named entity corresponding to a reference to that entity. ![image](https://github.com/diogokobbi/github-certification-guide/assets/7206693/c0fda833-a5ad-479d-b29f-e9ca33eb3f81)
@@ -232,8 +232,7 @@ CODEOWNERS)</dt>
 <dt>Describe repository templates</dt>
 <dd>A way to generate new repositories with the same directory structure, branches, and files of an existing repository (*except files stored using Git LFS).</dd>
 
-<dt>Describe the different features to maintaining a repository</dt>
-<dd></dd>
+### Describe the different features to maintaining a repository
 
 <dt>Describe how to clone a repository</dt>
 <dd>Cloning a repository pulls down a full copy of all the repository data that GitHub.com has at that point in time: <br>
@@ -250,7 +249,7 @@ Alternatively, ***to clone your repository in Desktop***, click "Set up in Deskt
 
 <dt>Describe how to create a new branch</dt>
 <dd>Creating a branch via the branches overview: From the file tree view on the left, select the  branch dropdown menu, then click View all branches > Click New branch.</dd>
-<dd></dd>
+
 <dd>create a branch directly from the issue page: navigate to the issue that you would like to create a branch for > In the right sidebar under "Development", click Create a branch.</dd>
 <dd>Note: You can only create a branch in a repository to which you have push access.</dd>
 
@@ -311,9 +310,9 @@ Alternatively, ***to clone your repository in Desktop***, click "Set up in Deskt
 
 <dt>Describe the difference between an issue, discussion, and pull request</dt>
 <dd>The difference is their purpose.</dd>
-<dd>Issues are for ideas, feedback, tasks, or bugs related to code</dd>
-<dd>Discussions are for conversations that need to be accessible to everyone and aren't related to code</dd>
-<dd></dd>
+<dd>Issues: for ideas, feedback, tasks, or bugs related to code</dd>
+<dd>Discussions: for conversations that need to be accessible to everyone and aren't related to code</dd>
+<dd>Pull request: to propose changes to the codebase. </dd>
 
 <dt>Explain how to create a branch from an issue</dt>
 <dd>create a branch directly from the issue page: navigate to the issue that you would like to create a branch for > In the right sidebar under "Development", click Create a branch</dd>
@@ -322,19 +321,39 @@ Alternatively, ***to clone your repository in Desktop***, click "Set up in Deskt
 <dd>Open the issue or pull request that you want to assign to someone. In the right side menu, click Assignees.</dd>
 
 <dt>Describe how to search and filter issues</dt>
-<dd></dd>
+<dd>Go to the GitHub repository where you want to search or filter issues. Click on the 'Issues' or 'Pull Requests' tabs and use the search bar with the selected filter.</dd>
 
 <dt>Describe how to pin an issue</dt>
-<dd></dd>
+<dd>On the issues tab, click the issue to pin, then on the right sidebar click 'Pin Issue'.</dd>
 
 <dt>Explain basic issue management</dt>
-<dd></dd>
+<dd>Creating Issues: click on the 'Issues' tab in the repository and then on 'New issue'.</dd>
+
+<dd>Labeling Issues: Labels are a useful way to categorize issues. Common labels include 'bug', 'feature request', and 'help wanted'. They can be customized to fit the needs of the project. Labels help in organizing and prioritizing issues.
+
+<dd>Assigning Issues: indicate who is responsible for working on the issue. It helps in distributing tasks among team members.
+
+<dd>Milestones: group issues together, often for a specific release or project phase. This helps in tracking the progress towards a particular goal.
+
+<dd>Issue Comments: Team members can comment on issues to discuss them in more detail.
+
+<dd>Closing Issues: Once an issue has been resolved, it should be closed.
+
+<dd>Searching and Filtering Issues: GitHub provides tools to search and filter issues. This can be done using keywords, labels, assignees, or other criteria.
+
+<dd>Linking Pull Requests to Issues: indicates that the code changes in the pull request address the issue.</dd>
 
 <dt>Explain the difference between issue templates and issue forms</dt>
-<dd></dd>
+<dd>Issue Templates are markdown files that create a predefined structure for users to fill out when they open a new issue.</dd>
+<dd>Issue Forms: a more structured, more interactive and user-friendly forms alternative to issue templates using YAML configuration files.</dd>
 
 <dt>Explain how to use keywords in issues</dt>
-<dd></dd>
+<dd>Keywords are used in pull requests and commit messages to link the pull request or commit to an issue, and optionally to close the issue when the pull request is merged:<br>
+  - To link a pull request or commit: use keywords like "refers to", "addresses", or "re:", followed by the issue number. For example, "Refers to #123".
+  - To close an issue automatically when a pull request is merged: use keywords such as "close", "closes", "closed", "fix", "fixes", "fixed", "resolve", "resolves", or "resolved";<br>
+  - When creating a pull request or making a commit: include the chosen keyword followed by the issue number in the pull request description or the commit message.<br>
+  - If your pull request or commit addresses several issues, you can use multiple keywords. For example: "This commit closes #123, resolves #124, and refers to #125".
+</dd>
 
 </dl>
 
@@ -380,18 +399,31 @@ Alternatively, ***to clone your repository in Desktop***, click "Set up in Deskt
   <dd>Files changed: </dd>
   
   <dt>Identify how to link activity within a pull request</dt>
-  <dd></dd>
+  <dd>Referencing Issues: include phrases like fixes #issue_number, closes #issue_number, or resolves #issue_number in your PR description or in a commit message.</dd>
+  <dd>Mentioning Other Pull Requests or Discussions: use the # followed by the PR/discussion number</dd>
+  <dd>Linking to Commits: To reference a specific commit in your discussion, use its SHA.</dd>
+  <dd>Mentioning Team Members: Use @username to grab their attention. </dd>
+  <dd>Using Markdown for Additional Context</dd>
+  <dd>Checklist to Track Progress: In the PR description, you can include a task list using - [ ].</dd>
   
   <dt>Explain the different pull request statuses</dt>
   <dd>Draft: Cannot be merged and code owners ***are not*** automatically requested to review it.</dd>
-  <dd>Ready for review: Can be merged and code owners are automatically requested to review it.</dd>
+  <dd>Open pull request (Ready for review): Can be merged and code owners are automatically requested to review it.</dd>
+  <dd>Closed pull request: You can choose to close a pull request without merging it into the base/main branch.</dd>
+  <dd>Merged pull request: means that the updates and commits from the compare branch were combined with the base branch.</dd>
   
   <dt>Recognize how to comment on a posted link to a line or lines of code from a file</dt>
   <dd>While reviewing a pull request, Hover over the line of code where you'd like to add a comment, and click the blue comment icon. To add a comment on multiple lines, click and drag to select the range of lines, then click the blue comment icon.</dd>
   <dd>To comment directly on a file, to the right of the file, click  and type your comment.</dd>
   
   <dt>Describe code review with a codeowners file</dt>
-  <dd></dd>
+  <dd>The CODEOWNERS file can be placed in the root, docs/, or .github/ directory of a repository. It specifies individuals or teams responsible for code in certain parts of the repository.<br>
+Features:<br>
+- Automatic Review Requests: GitHub automatically requests a review from the specified owners.<br>
+- Mandatory Reviews for Protected Branches: enforce that changed code is reviewed by its owners before it’s merged.<br>
+- Flexibility and Documentation: serves as a clear documentation of responsibilities<br>
+- Integration with GitHub Actions 
+  </dd>
   
   <dt>Explain the different options for providing a code review on a pull request (comment, approve, request changes, suggested changes)</dt>
   <dd>Comment: Submit general feedback without explicitly approving the changes or requesting additional changes</dd>
@@ -504,7 +536,7 @@ Alternatively, ***to clone your repository in Desktop***, click "Set up in Deskt
 <dd></dd>
 
 <dt>Explain where you can use GitHub Actions within GitHub (general event types)</dt>
-<dd></dd>
+<dd>GitHub Actions is a continuous integration and continuous delivery (CI/CD) platform that allows you to automate your build, test, and deployment pipeline.</dd>
 
 <dt>Explain where you can find existing GitHub Actions</dt>
 <dd></dd>
